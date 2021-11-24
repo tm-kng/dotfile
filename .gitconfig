@@ -1,0 +1,13 @@
+[alias]
+        st = status
+        ch = checkout
+        co = commit
+        fall = fetch --all
+        rst = reset --hard HEAD
+        latest = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:short) %(refname:short)'
+        logdiff = log --left-right --graph --cherry-pick --oneline
+
+#win32
+#[core]
+#
+#        editor = 'C:\\Program Files (x86)\\Vim\\vim81\\gvim.exe' -f -i NONE
